@@ -16,3 +16,11 @@
 ; #IfWinActive 
 ; #IfWinExist
 
+;----------------------------------------------------------------------------------------
+; S
+
+; script: ClipClip manager launch
+; date: 2022-01-14
+; description: Launch ClipClip manager via ^l -> ctrll -> control and letter l
+^l::Run C:\Program Files (x86)\ClipClip\ClipClip.exe
+return
