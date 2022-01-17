@@ -17,10 +17,15 @@
 ; #IfWinExist
 
 ;----------------------------------------------------------------------------------------
-; S
+; SCRIPTS
 
 ; script: ClipClip manager launch
 ; date: 2022-01-14
-; description: Launch ClipClip manager via ^l -> ctrll -> control and letter l
+; description: Launch ClipClip manager via ^l -> ctrl l 
 ^l::Run C:\Program Files (x86)\ClipClip\ClipClip.exe
 return
+
+; script: google chrome launcher
+; date: 2022-01-17
+; description: Launch google chrome via ^g -> ctrl g
+^g::Run C:\Program Files\Google\Chrome\Application\chrome.exe
