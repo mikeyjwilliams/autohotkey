@@ -29,4 +29,4 @@ return
 ; date: 2022-01-17
 ; description: Launch google chrome via ^g -> ctrl g
 ^g::Run C:\Program Files\Google\Chrome\Application\chrome.exe
-return
+Return
